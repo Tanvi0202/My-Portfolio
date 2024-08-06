@@ -1,0 +1,44 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  justify-content: center;
+  
+}
+.f-title {
+  position: relative;
+}
+
+.f-title h3 {
+ font-size: 30px;
+ font-weight: 300;
+ font-family: Outfit;
+  
+}
+
+.f-title img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+.f-con{
+  display: flex;
+  gap: 80px;
+  margin-bottom:20px;
+}
+.f-con img{
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+    width:50px;
+    cursor:pointer;
+    transition: 0.3s;
+}
+.f-con img:hover{
+  transform: scale(1.1);
+  transition: 0.3s;
+}
